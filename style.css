@@ -1,0 +1,103 @@
+.btn-1 {
+    background-color: #00c6f2;
+    padding: 0.7rem;
+    /* to make button in circle shape */
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.x {
+    color: #00c6f2;
+}
+
+.t-1 {
+    font-size: 1.5rem;
+}
+
+.text-area {
+    height: 100vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    background-image: url("images/pexels-alteredsnaps-17366637.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-hero {
+    background-image: url("images/2.jpg");
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.caro-img {
+    height: 40vh;
+}
+
+.img-card {
+    height: 30vh;
+}
+
+.c-1 {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.overlay-c {
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+}
+
+.img-n {
+    height: 40vh;
+    width: 43vw;
+}
+
+.input {
+    height: 3rem;
+    width: 50vw;
+    border: 3px solid #00c6f2;
+    margin-bottom: 1.4rem;
+    border-radius: 5rem;
+}
+
+footer {
+    background-color: #1e2021;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 3.5rem;
+}
+
+@media(max-width:600px) {
+    .img-n {
+        display: none;
+    }
+}
